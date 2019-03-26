@@ -23,7 +23,7 @@
         [[self nameLabel] setText:[_person name]];
         [[self birthYearLabel] setText: [NSString stringWithFormat:@"Born %@", [_person birthYear]]];
         [[self heightLabel] setText: [NSString stringWithFormat:@"%@ cm", [_person height]]];
-        [[self eyeColorLabel] setText: [NSString stringWithFormat:@"%@ eyes", [_person eyeColor]]];
+        [[self eyeColorLabel] setText: [NSString stringWithFormat:@"%@ eyes", [[_person eyeColor] capitalizedString]]];
     }
 }
 

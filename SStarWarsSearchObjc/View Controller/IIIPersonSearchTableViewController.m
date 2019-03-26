@@ -9,7 +9,6 @@
 
 #import "IIIPersonSearchTableViewController.h"
 #import "../Model Controller/IIIPersonController.h"
-//#import "../Model/IIIPerson.h"
 #import "../Views/IIIPersonTableViewCell.h"
 
 // MARK: - Interface
